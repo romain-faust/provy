@@ -1,0 +1,38 @@
+{
+	"author": {
+		"email": "romain.faust@gmail.com",
+		"name": "Romain Faust"
+	},
+	"description": "Simple and versatile dependency container",
+	"devDependencies": {
+		"@babel/core": "~7.14.3",
+		"@babel/preset-env": "~7.14.4",
+		"@babel/preset-typescript": "~7.13.0",
+		"@romain-faust/prettier-config": "~2.0.4",
+		"@types/jest": "~26.0.23",
+		"babel-jest": "~27.0.2",
+		"husky": "~6.0.0",
+		"jest": "~27.0.3",
+		"lint-staged": "~11.0.0",
+		"prettier": "~2.3.0",
+		"typescript": "~4.3.2"
+	},
+	"files": [
+		"build"
+	],
+	"license": "MIT",
+	"main": "build/index.js",
+	"name": "@romain-faust/provy",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/romain-faust/provy.git"
+	},
+	"scripts": {
+		"build": "tsc",
+		"test": "jest",
+		"test:coverage": "yarn test --coverage",
+		"typecheck": "yarn build --noEmit"
+	},
+	"types": "build/index.d.ts",
+	"version": "1.0.0"
+}

@@ -1,0 +1,23 @@
+{
+	"compilerOptions": {
+		"alwaysStrict": true,
+		"declaration": true,
+		"forceConsistentCasingInFileNames": true,
+		"lib": ["ES2015"],
+		"module": "CommonJS",
+		"moduleResolution": "Node",
+		"newLine": "LF",
+		"noErrorTruncation": true,
+		"noImplicitAny": true,
+		"noImplicitReturns": true,
+		"noImplicitThis": true,
+		"noUnusedLocals": true,
+		"noUnusedParameters": true,
+		"outDir": "build",
+		"pretty": true,
+		"strict": true,
+		"target": "ES5",
+		"types": []
+	},
+	"exclude": ["build", "coverage", "**/*.test.ts"]
+}

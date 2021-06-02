@@ -1,0 +1,22 @@
+# Build
+
+build/
+
+# IDEs
+
+.idea/
+.vscode/
+
+# macOS
+
+.DS_Store
+
+# Node.js
+
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Test
+
+coverage/

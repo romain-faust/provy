@@ -1,0 +1,7 @@
+{
+	"coverageDirectory": "coverage",
+	"coverageReporters": ["text-summary", "lcov"],
+	"transform": {
+		"^.+\\.ts$": "babel-jest"
+	}
+}
